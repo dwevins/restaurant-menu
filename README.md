@@ -1,6 +1,7 @@
 # Restaurant-menu
 
 A simple mockup of an online food ordering system.
+
 Features:
 
 [X] Loading States
