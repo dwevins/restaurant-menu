@@ -4,7 +4,7 @@ A simple mockup of an online food ordering system.
 
 Features:
 
-[X] Loading States
+[O] Loading States
 
 [X] Logins with permission levels
 
