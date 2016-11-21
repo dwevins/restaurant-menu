@@ -2,11 +2,17 @@
 
 A simple mockup of an online food ordering system.
 Features:
+
 [X] Loading States
+
 [X] Logins with permission levels
+
 [X] Saving of custom cart presets
+
 [X] Order History
+
 [X] Admin add/delete/edit of menu items
+
 [X] Admin view of sales figures
 
 ## Prerequisites
