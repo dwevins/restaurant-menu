@@ -1,0 +1,18 @@
+.nav {
+  width: 100;
+  background-color: #81a6e6;
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-width: $min-width;
+    max-width: $max-width;
+
+    &-box {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+  }
+}

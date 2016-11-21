@@ -1,15 +1,19 @@
-<div class="nav">
-  <div class="container">
-    <div class="nav__links">
-      <div class="nav__links-left">
-        <a href="" class="nav__links--link home">Home</a>
-      </div>
-      <div class="nav__links-right">
-        <a href="" class="nav__links--link login">Login</a>
-        {{!-- <a href="" class="nav__links--link"></a>
-        <a href="" class="nav__links--link"></a> --}}
+<div class="page-wrapper">
+  <div class="nav">
+    <div class="container">
+      <div class="nav__links">
+        <div class="nav__links-left nav__links-box">
+          <a href="" class="nav__links--link home"><p>Home</p></a>
+        </div>
+        <div class="nav__links-right nav__links-box">
+          <a href="" class="nav__links--link login"><p>Login</p></a>
+          {{!-- <a href="" class="nav__links--link"></a>
+          <a href="" class="nav__links--link"></a> --}}
+        </div>
       </div>
     </div>
   </div>
+  <div class="container">
+    {{outlet}}
+  </div>
 </div>
-{{outlet}}
