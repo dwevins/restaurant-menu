@@ -4,9 +4,7 @@ body {
 }
 
 .container {
-  display: flex;
-  min-width: $min-width;
   max-width: $max-width;
-  width: 100%;
+  width: calc(100% - #{$gutter});
   margin: 0 auto;
 }
